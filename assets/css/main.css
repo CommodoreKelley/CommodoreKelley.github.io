@@ -1918,7 +1918,7 @@
 		opacity: 1.0;
 	}
 
-	:-moz-placeholder {
+	/*:-moz-placeholder {
 		color: #b2b2b2 !important;
 		opacity: 1.0;
 	}
@@ -1940,7 +1940,7 @@
 
 /* Box */
 
-	.box {
+	/*.box {
 		border-radius: 0.35em;
 		border: solid 2px #efefef;
 		margin-bottom: 2em;
@@ -1961,7 +1961,7 @@
 
 /* Icon */
 
-	.icon {
+	/*.icon {
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
@@ -1989,7 +1989,7 @@
 		position: relative;
 	}
 
-		.image:before {
+		/*.image:before {
 			-moz-transition: opacity 0.2s ease-in-out;
 			-webkit-transition: opacity 0.2s ease-in-out;
 			-ms-transition: opacity 0.2s ease-in-out;
@@ -2041,7 +2041,7 @@
 			.image.thumb:hover:before {
 				background: url("images/overlay.png"), url("images/overlay.png");
 				opacity: 1.0;
-			}
+			}*/
 
 		.image img {
 			border-radius: 0.35em;
@@ -2654,7 +2654,7 @@
 		}
 	}
 
-	.poptrox-popup {
+	/*.poptrox-popup {
 		-moz-box-sizing: content-box;
 		-webkit-box-sizing: content-box;
 		-ms-box-sizing: content-box;
@@ -2665,9 +2665,9 @@
 		box-shadow: 0 0.1em 0.15em 0 rgba(0, 0, 0, 0.15);
 		overflow: hidden;
 		padding-bottom: 3em;
-	}
+	}*/
 
-		.poptrox-popup .loader {
+		/*.poptrox-popup .loader {
 			text-decoration: none;
 			-moz-animation: spin 1s linear infinite;
 			-webkit-animation: spin 1s linear infinite;
@@ -2681,9 +2681,9 @@
 			position: absolute;
 			top: 50%;
 			width: 1em;
-		}
+		}*/
 
-			.poptrox-popup .loader:before {
+			/*.poptrox-popup .loader:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
 				font-family: FontAwesome;
@@ -2831,7 +2831,7 @@
 
 			.poptrox-popup:hover .closer:hover {
 				opacity: 1.0;
-			}
+			}*/
 
 /* Touch */
 
@@ -2848,11 +2848,11 @@
 		background-size: auto, cover;
 	}
 
-	body.is-touch .poptrox-popup .nav-next,
+	/*body.is-touch .poptrox-popup .nav-next,
 	body.is-touch .poptrox-popup .nav-previous,
 	body.is-touch .poptrox-popup .closer {
 		opacity: 1.0 !important;
-	}
+	}*/
 
 /* XLarge */
 
@@ -3055,14 +3055,14 @@
 
 		/* Poptrox */
 
-			.poptrox-popup {
+			/*.poptrox-popup {
 				border-radius: 0;
 			}
 
 				.poptrox-popup .nav-next:before,
 				.poptrox-popup .nav-previous:before {
 					margin-top: -1em;
-				}
+				}*/
 
 	}
 
